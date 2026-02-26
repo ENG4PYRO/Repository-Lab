@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="Repository-Lab-Application/Repository-Lab-Application.csproj" />
+  <Project Path="Repository-Lab-Core/Repository-Lab-Core.csproj" />
+  <Project Path="Repository-Lab-Infrastructure/Repository-Lab-Infrastructure.csproj" />
   <Project Path="Repository-Lab/Repository-Lab.csproj" />
 </Solution>

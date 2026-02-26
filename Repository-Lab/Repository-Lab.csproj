@@ -12,4 +12,13 @@
     <PackageReference Include="Scalar.AspNetCore" Version="2.12.47" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Repository-Lab-Application\Repository-Lab-Application.csproj" />
+    <ProjectReference Include="..\Repository-Lab-Infrastructure\Repository-Lab-Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
