@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Repository_Lab_Core.Enums
 {
-    internal class EnAuctionStatus
+    public enum AuctionStatus
     {
+        Active,
+        Closed,
+        Cancelled,
+        Completed
     }
 }

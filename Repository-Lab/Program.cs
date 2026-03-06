@@ -1,5 +1,6 @@
 using Scalar.AspNetCore;
 using Repository_Lab_Infrastructure.Extensions;
+using Repository_Lab_Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 
